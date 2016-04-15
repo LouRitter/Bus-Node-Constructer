@@ -4,11 +4,9 @@ var bus= function(driverName, color, gas){
 		this.studentsOnTheBus.push(pupil);
 	}
 	this.busChatter= function(){
-		for (var i=0; i<this.studentsOnTheBus.length;i++) {
-			if(this.studentsOnTheBus[i].GPA>2 && this.studentsOnTheBus[i].detentions<10){
-				console.log(this.studentsOnTheBus[i].catchPhrase);
-			}
+			if((this.studentsOnTheBus.GPA>2) && (this.studentsOnTheBus.detentions<10)){
+				console.log(studentsOnTheBus.catchPhrase);
+			};
 		};
 	}
-}
 module.exports= bus;
