@@ -13,7 +13,9 @@ pupil.canHaveFun();
 
 if(Busses.studentsOnTheBus[count].GPA>2 && Busses.studentsOnTheBus[count].detentions<10){
 	console.log(Busses.studentsOnTheBus[count].catchPhrase);
+
 }
+count++;
 if (Busses.studentsOnTheBus.length<20) {
 
 makeStudent();
